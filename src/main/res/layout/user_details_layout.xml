@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.aderelemaryidowu.recyclerviewyupdev.FilmDetails">
+
+    <ImageView
+        android:id="@+id/user_image_details"
+        android:layout_width="300dp"
+        android:layout_height = "300dp"
+        android:layout_alignParentLeft="true"
+        android:padding="4dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/baby_driver"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/user_login_details"
+
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Director Name"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/user_id_details"
+        />
+
+</LinearLayout>

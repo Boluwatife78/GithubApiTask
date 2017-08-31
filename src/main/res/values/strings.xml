@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GitHubLagosUser</string>
+    <string name="error_message">There was an error. Please Try Again</string>
+    <string name="error_title">Oops!!! Sorry</string>
+    <string name="error_ok_button_text">OK</string>
+    <string name="network_unavailable_text">Network is unavailable at the Moment</string>
+</resources>
+

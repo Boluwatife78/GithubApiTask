@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:background="#FFFC970B"
+    >
+
+
+    <ImageView
+        android:id="@+id/user_image"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:padding="4dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/baby_driver"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/user_image"
+        android:text="Login :"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/user_login"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_login"
+        android:layout_toRightOf="@id/user_image"
+        android:text="ID :"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="4dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/userId"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/user_image"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="3dp"
+        />
+
+</RelativeLayout>
